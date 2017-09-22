@@ -2,25 +2,35 @@ body{
 	border: none;
 	padding: 0;
 	margin: 0;
-	font-family: 'Muli', sans-serif;;
+	font-family: 'Muli', sans-serif;
 }
-.grey{
-	border: none;
-	margin: 0;
-	padding: 0;
-	background:#E4E4E4;
-	height: 200px;
-	width:680px;
-}
-#last-grey{
-	height:326px;
-	width:608px;
-	background-color:#FFFFFF;
-	border: none;
-	opacity:0.5;
-	margin: 0 auto;
-	padding: 0;
-}
+.span{
+	cursor:pointer;
+    box-shadow: inset 0px -10px 0px #b6eff1;
+	}
+	.grey{
+		border: none;
+		margin: 0;
+		padding: 0;
+		background:#E4E4E4;
+		height: 200px;
+		width:680px;
+	}
+	#last-grey{
+		height:326px;
+		width:608px;
+		background-color:#FFFFFF;
+		border: none;
+		opacity:0.5;
+		margin: 0 auto;
+		padding: 0;
+	}
+	#hide-grey{
+		width: 70%;
+		height: 200px;
+		background-color:#E4E4E4;
+		margin: 0 auto;
+	}
 /*css for all the fancy buttons*/
 .button{
 	padding:25px;
@@ -35,30 +45,30 @@ body{
 	color:white;
 	font-family: 'Lora', serif;;
 	font-weight:700;
-}
-.button:hover{
+	}
+	.button:hover{
 	transition:0.4s;
 	border:2px solid white;
 	background:#ffffff;
 	color:inherit;
-}
-#secondbutton{
-	border:2px solid #57c7ED;
-	color:#57c7Ed;
-}
-#secondbutton:hover{
-	border:2px solid #57c7ED;
-	color:white;
-	transition:0.4s;
-	background:#57c7ed;
-	
-}
-#thirdbutton:hover{
-	color:#57c7ed;
-}
-#thirdbutton2:hover{
-	color:grey;
-}
+	}
+	#secondbutton{
+		border:2px solid #57c7ED;
+		color:#57c7Ed;
+	}
+	#secondbutton:hover{
+		border:2px solid #57c7ED;
+		color:white;
+		transition:0.4s;
+		background:#57c7ed;
+		
+	}
+	#thirdbutton:hover{
+		color:#57c7ed;
+	}
+	#thirdbutton2:hover{
+		color:grey;
+	}
 
 /*first section that contains image and the am a physician part*/
 #first{
@@ -67,13 +77,13 @@ body{
 	border: none;
 	background:#57C7ED;
 	width:100%;
-}
-#first-div{
-margin:0;
-border: none;
-padding:0;
-}
-#first-div2{
+	}
+	#first-div{
+	margin:0;
+	border: none;
+	padding:0;
+	}
+	#first-div2{
 	margin: 0;
 	border:none;
 	padding: 0;
@@ -81,26 +91,27 @@ padding:0;
 	color: white;
 	text-align:left;
 
-}
-#square-avatar{
+	}
+	#square-avatar{
 	padding:0;
 	width:100%;
-}
-#first-para{
+	}
+	#first-para{
 	padding-left: 100px;
 	padding-top:120px;
 	border: none;
 	font-size:60px;
 	font-weight: 100;
-}
-#first-para2{
+	}
+	#first-para2{
 	padding-left: 100px;
 	margin-top:20px;
 	border: none;
 	font-size:60px;
 	font-family: 'Muli', sans-serif;
-	font-weight:700;
-}
+	font-weight:900;
+	}
+
 /*second section ..this part is the white long part that contains a lot of activity*/
 
 #second{
@@ -112,16 +123,16 @@ padding:0;
 	width: 100%;
 	color:grey;
 	font-size:30px;
-}
-#second-heading{
+	}
+	#second-heading{
 	padding: 0;
 	padding-top: 100px;
 	padding-bottom:30px;
 	border: none;
 	text-align:center;
 	font-size: 20px;
-}
-#second-heading2{
+	}
+	#hide h2,#second-heading2{
 	padding: 0;
 	margin-bottom:100px;
 	border: none;
@@ -129,31 +140,65 @@ padding:0;
 	color:#57C7ED;
 	font-size:60px;
 	font-weight:800;
-}
-.second-head{
+	}
+	.second-head{
 	border-bottom: 2px solid #57C7ED;
 	font-size:80px;
 	margin-bottom: 40px;
 	width:680px;
 	padding-bottom: 15px;
 	font-family: 'Lora', serif;
-}
-.row{
+	}
+	.row{
 	margin: 0;
-}
-.row2{
+	}
+	.row2{
 	margin-bottom:130px;
-}
-/*the columns in the second section*/
-.first{
+	}
+	/*the columns in the second section*/
+	.first{
 	margin-left:10%;
-}
-.second{
+	}
+	.second{
 	
-}
-.second-text{
+	}
+	.second-text{
 	font-size:36px;
 	margin-top:40px;
+	}
+#hide{
+	display: none;
+}
+#hide h4{
+	margin: 0;
+	padding-top:60px;
+	padding-bottom: 30px;
+}
+#hide h2{
+		margin-bottom: 50px !important;
+}
+#hide,#hide2{
+	text-align: center;
+}
+#hide-row{
+	width: 70%;
+	margin: 0 auto;
+}
+#hide-row1{
+	width: 70%;
+	margin: 0 auto;
+	border-bottom: 2px solid powderblue;
+}
+#hide-row1 div{
+	margin-top:0;
+}
+.hide-div p {
+	text-align: left;
+}
+#hide2 h4{
+margin: 0;
+padding-top: 60px;
+padding-bottom: 30px;
 }
 
 /*third section that contains thoughts and Talks*/
@@ -163,27 +208,62 @@ padding:0;
 	font-size:36px;
 	width:100%;
 	text-align:center;
-}
-#third-div{
+	}
+	#third-div{
 	background: #57C7ED;
-	height:800px;
-}
-#third-div2{
+	height:850px;
+	}
+	#third-div2{
 	background:#95989A;
-	height:800px;
-}
-.third-heading{
+	height:850px;
+	}
+	.third-heading{
 	font-size:20px;
 	margin-bottom: 80px;
 	margin-top:100px;
-}
-.third-text{
+	}
+	.third-text{
 	margin-top:60px;
 	margin-bottom: 100px;
-}
+	}
+/*fourth section you may also know it as the footer*/
+#fourth{
+	background-color: #222328;
+	color: grey;
+	padding:0;
+	text-align: center;
+	}
+	#fourth h3{
+		margin:0;
+		font-size: 45px;
+		padding-top:25px;
+		border: none;
+	}
+	#fourth p{
+		font-size:20px;
+		padding-top:10px;
+		padding-bottom: 20px;
+	}
+	#fourth li{
+		list-style-type: none;
+		font-size: 16px;
+		padding-top:10px;
+		padding-bottom: 10px;
+	}
+	.fourth-div{
+		width: 20%;
+		height: 80px;
+		border-right:1px solid white;
+	}
+	#fourth #foot-text{
+		font-size:15px;
+		margin: 0;
+		border:none;
+		padding-top:100px;
+	}
 /*let the responsiveness begin*/
 @media only screen and (max-width:1366px) {
-	#first-para,#first-para2,#second-heading2{
+	#hide h2,#first-para,#first-para2,#second-heading2{
 		font-size: 40px;
 	}
 	#first-para{
@@ -212,6 +292,15 @@ padding:0;
 	}
 	.second-text,#third{
 		font-size:24.12px;
+	}
+}
+@media only screen and (max-width: 1283px){
+	#first-para,#first-para2,#second-heading2{
+		font-size: 35px;
+	}
+@media only screen and (max-width: 1234px){
+	#hide h2,#first-para,#first-para2,#second-heading2{
+		font-size: 30px;
 	}
 }
 @media only screen and (max-width: 1055px){
@@ -265,7 +354,7 @@ padding:0;
 	font-family: 'Muli', sans-serif;
 	font-weight:700;
 	}
-	#second-heading2{
+	#hide h2,#second-heading2{
 		font-size:28px;
 	}
 	.grey ,.second-head{
@@ -291,6 +380,11 @@ padding:0;
 @media only screen and (max-width: 870px){
 	.first{
 		margin-left:7%;
+	}
+}
+@media only screen and (max-width: 857px){
+	#hide h2,#first-para,#first-para2,#second-heading2{
+		font-size: 25px;
 	}
 }
 @media only screen and (max-width: 815px){
