@@ -43,3 +43,7 @@ function myClose(){
 	second.style.display='none';
 	disapear.style.display='block';
 }
+
+function fixIt(){
+	 window.scrollBy(0,);
+}

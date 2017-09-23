@@ -6,7 +6,7 @@ body{
 }
 .span{
 	cursor:pointer;
-    box-shadow: inset 0px -10px 0px #b6eff1;
+    box-shadow: inset 0px -10px 0px yellow;
 	}
 	.grey{
 		border: none;
@@ -220,7 +220,7 @@ padding-bottom: 30px;
 	.third-heading{
 	font-size:20px;
 	margin-bottom: 80px;
-	margin-top:100px;
+	padding-top:100px;
 	}
 	.third-text{
 	margin-top:60px;
@@ -402,6 +402,9 @@ padding-bottom: 30px;
 	.second{
 		margin-left: 15%;
 	}
+	#first-para2{
+		padding-bottom: 50px;
+	}
 }
 @media only screen and (max-width: 735px){
 	.first,.second{
@@ -439,6 +442,9 @@ padding-bottom: 30px;
 @media only screen and (max-width: 540px){
 	.first,.second{
 		margin-left:10%;
+	}
+	#first-para2{
+		padding-bottom: 50px;
 	}
 }
 @media only screen and (max-width: 520px){
