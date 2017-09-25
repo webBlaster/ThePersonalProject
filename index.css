@@ -15,12 +15,13 @@ body{
 		background:#E4E4E4;
 		height: 200px;
 		width:680px;
+		background-image: url(PersonalWebsite_IMG_02.jpg);
+		border: none;
 	}
 	#last-grey{
 		height:326px;
 		width:608px;
 		background-color:#FFFFFF;
-		border: none;
 		opacity:0.5;
 		margin: 0 auto;
 		padding: 0;
