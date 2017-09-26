@@ -34,6 +34,7 @@ function showInfo(i){
 			change2.innerHTML="I'm a <span class='span' onclick='showInfo(1)'>BioDesigner</span><br>working out of<br><span class='span' onclick='showInfo(2)'>@HEIT.co</span> and<br><span class='span' onclick='showInfo(3)'>@EpidAlert</span><br>in Lagos, Nigeria.";
 		}
 		setTimeout(normalize,10000);
+		clearInterval();
 }
 //tells the browser to display a hidden markup and hide a shown markup
 function myClose(){
