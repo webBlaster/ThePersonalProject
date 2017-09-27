@@ -169,6 +169,7 @@ body{
 	}
 #hide{
 	display: none;
+	padding-bottom: 100px;
 	}
 	#hide h4{
 	margin: 0;
@@ -197,8 +198,9 @@ body{
 		text-align: left;
 	}
 #hide2{
+	display: none;
 	padding-bottom: 100px;
-}
+	}
 	#hide2 div input{
 		width: 75%;
 		height: 70px;
@@ -311,9 +313,15 @@ body{
 		padding-bottom: 10px;
 	}
 	.fourth-div{
-		width: 20%;
 		height: 80px;
 		border-right:1px solid white;
+	}
+	#fourth-div2{
+		border:none;
+	}
+	#fourth-div li #para{
+		font-size: 30px;
+		padding:0;
 	}
 	#fourth #foot-text{
 		font-size:15px;
