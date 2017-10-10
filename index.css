@@ -118,7 +118,7 @@ body{
 #second{
 	border:none;
 	padding: 0;
-	padding-bottom:150px;
+	padding-bottom:50px;
 	margin: 0;
 	background:;
 	width: 100%;
@@ -496,6 +496,10 @@ body{
 	}
 	#hide2 .hide-row{
 		padding-top: 0;
+	}
+	#fourth h3{
+		font-size: 25px;
+		margin-bottom: 18px;
 	}
 	#fourth-div,#fourth-div1,#fourth-div2{
 		width: 100%;
