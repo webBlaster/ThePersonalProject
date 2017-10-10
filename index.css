@@ -265,7 +265,7 @@ body{
 	}
 /*third section that contains thoughts and Talks*/
 #third{
-	background:#57C7ED;
+	padding:0;
 	color:white;
 	font-size:36px;
 	width:100%;
@@ -275,10 +275,7 @@ body{
 	background: #57C7ED;
 	height:850px;
 	}
-	#third-div2{
-	background:#95989A;
-	height:850px;
-	}
+
 	.third-heading{
 	font-size:20px;
 	margin-bottom: 80px;
@@ -298,19 +295,13 @@ body{
 	#fourth h3{
 		margin:0;
 		font-size: 45px;
-		padding-top:25px;
+		padding-top:30px;
 		border: none;
 	}
 	#fourth p{
 		font-size:20px;
 		padding-top:10px;
 		padding-bottom: 20px;
-	}
-	#fourth li{
-		list-style-type: none;
-		font-size: 16px;
-		padding-top:10px;
-		padding-bottom: 10px;
 	}
 	.fourth-div{
 		height: 80px;
@@ -319,7 +310,7 @@ body{
 	#fourth-div2{
 		border:none;
 	}
-	#fourth-div li #para{
+	#fourth-div #para{
 		font-size: 30px;
 		padding:0;
 	}
