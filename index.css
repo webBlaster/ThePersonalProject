@@ -328,6 +328,10 @@ body{
 		border:none;
 		padding-top:100px;
 	}
+	#fourth a{
+		text-decoration: none;
+		color:inherit;
+	}
 /*let the responsiveness begin*/
 @media only screen and (max-width:1366px) {
 	#hide h2,#first-para,#first-para2,#second-heading2{
