@@ -271,6 +271,9 @@ body{
 	width:100%;
 	text-align:center;
 	}
+	#third a{
+		text-decoration: none;
+	}
 	#third-div{
 	background: #57C7ED;
 	height:850px;
