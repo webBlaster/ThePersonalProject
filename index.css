@@ -15,8 +15,19 @@ body{
 		background:#E4E4E4;
 		height: 200px;
 		width:680px;
-		background-image: url(PersonalWebsite_IMG_02.jpg);
 		border: none;
+	}
+	#grey1{
+		background-image: url(PersonalWebsite_IMG_01.jpg);
+	}
+	#grey2{
+		background-image: url(PersonalWebsite_IMG_02.jpg);
+	}
+	#grey3{
+		background-image: url(PersonalWebsite_IMG_03.jpg);
+	}
+	#grey{
+		background-image: url(PersonalWebsite_IMG_04.jpg);	
 	}
 	#last-grey{
 		height:326px;
@@ -166,6 +177,10 @@ body{
 	.second-text{
 	font-size:36px;
 	margin-top:40px;
+	}
+	.pro-link{
+		text-decoration: none;
+		color: inherit;
 	}
 #hide{
 	display: none;
